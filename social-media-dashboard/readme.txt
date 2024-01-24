@@ -1,6 +1,6 @@
 # Awesome Landing Page
 
-(image/Image1)
+(image/Image1(1).png)
 
 Welcome to the Awesome Landing Page repository! This project demonstrates a simple landing page with dynamic features. Users can input their preferences, and the page dynamically changes its background color based on the user's input.
 
