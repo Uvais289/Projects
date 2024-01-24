@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Awesome Landing Page</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Awesome Website</h1>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Discover Amazing Things</h2>
+        <p>Explore the wonders of our website and find exciting content.</p>
+        
+        <form onsubmit="submitForm(event)">
+          <label for="userInput">Tell us what you love about our site:</label>
+          <input type="text" id="userInput" name="userInput" required>
+          <button type="submit">Submit</button>
+        </form>
+        
+        <div id="userMessage"></div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <h3>Feature 1</h3>
+        <p>Learn about the incredible feature that sets us apart.</p>
+      </div>
+      <div class="feature">
+        <h3>Feature 2</h3>
+        <p>Discover another amazing feature that makes us unique.</p>
+      </div>
+      <div class="feature">
+        <h3>Feature 3</h3>
+        <p>Explore a third feature that adds value to your experience.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Awesome Website. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
